@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.apple-header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.apple-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apple-logo {
+  height: 40px;
+}
+
+.apple-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.apple-nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Section Styles */
+.apple-main .apple-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.apple-section img {
+  width: 60%;
+  margin: 20px 0;
+}
+
+.section-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.apple-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.apple-links a {
+  text-decoration: none;
+  color: #0071e3;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.apple-links a::after {
+  content: " >";
+  color: #0071e3;
+  margin-left: 5px;
+}
+
+/* Horizontal Flexbox Section */
+.horizontal-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.apple-card {
+  text-align: center;
+  max-width: 300px;
+}
+
+.apple-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.apple-card a {
+  margin-top: 10px;
+  color: #0071e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* MacBook and iPad Section */
+.macbook-ipad {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.product img {
+  width: 80%;
+}
+
+.product {
+  text-align: center;
+}
+
+/* Footer */
+.apple-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ccc;
+}
